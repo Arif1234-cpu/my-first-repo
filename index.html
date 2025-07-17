@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML Full Demo Page</title>
+   
+</head>
+
+<body>
+
+  <!-- Header Section -->
+  <header>
+    <h1>Welcome to  Full html in one code </h1>
+    <nav>
+      <a href="#about" tabindex="1">About</a> |
+      <a href="#form" tabindex="2">Form</a> |
+      <a href="#media" tabindex="3">Media</a>
+    </nav>
+    <hr>
+  </header>
+
+  <!-- Main Section -->
+  <main>
+    <section id="about">
+      <h2>HTML Tags in Action</h2>
+
+      <article>
+        <h3>Text Formatting</h3>
+        <p>This is a <big>big</big> word and a <small>small</small> word.</p>
+        <p>Water formula: H<sub>2</sub>O | Speed: m/s<sup>2</sup></p>
+        <pre>This is      preformatted    text!</pre>
+        <p>Use &lt;b&gt; for bold and &copy; 2025 Mohammad Arif Khan</p>
+      </article>
+
+      <article>
+        <h3>Lists and Tables</h3>
+        <h4>unorderd list</h4>
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+        </ul><br>
+        <h4>orderd list </h4>
+
+        <ol>
+          <li>Learn</li>
+          <li>Practice</li>
+        </ol>
+<h3> tables </h3>
+<h4> eg.:table 1 </h4>
+        <table border="5">
+          <tr>
+            <th colspan="2">Student Info</th>
+          </tr>
+          <tr>
+            <td>Name</td>
+            <td>Arif</td>
+          </tr>
+        </table>
+        <h4>eg.:table 2</h4>
+         <table border="20">
+           <thead>
+            <tr>
+                <th>S.No</th>
+                <th> Name</th>
+                <th> avg. cpi </th>
+            </tr>
+           </thead>
+           <tbody>
+            <tr>
+                <td>1</td>
+                <td>Arif</td>
+                <td>8.814</td>
+            </tr>
+            <tr>
+                <td>27</td>
+                <td>s........</td>
+                <td>8.84</td>
+            </tr>
+            <tr>
+                <td>57</td>
+                <td>aqdas ahmad</td>
+                <td>8.93</td>
+            </tr>
+            <tr>
+                <td>52</td>
+                <td>yameen</td>
+                <td>8.2</td>
+            </tr>
+
+           </tbody>
+        </table>
+      </article>
+
+      <article>
+        <h3>Span and Div</h3>
+         <p>this is an<div style="background-color: lightblue; padding: 10px;">important</div>text. </p>  
+        
+         <br>
+        <p>This is an <span style="color: red;">important</span> text.</p>
+
+      </article>
+    </section>
+
+    <!-- Form Section -->
+    <section id="form">
+      <h2>Form Elements</h2>
+      <form>
+        <fieldset>
+          <legend>Personal Details</legend>
+
+          <label for="name">Name:</label>
+          <input type="text" id="name" placeholder="Enter your name" required><br><br>
+
+          <label for="email">Email:</label>
+          <input type="email" id="email"><br><br>
+
+          <label for="gender">Gender:</label>
+          <input type="radio" name="gender" value="male"> Male
+          <input type="radio" name="gender" value="female"> Female<br><br>
+
+          <label for="country">Country:</label>
+          <select id="country">
+            <option>India</option>
+            <option>USA</option>
+            <option>Germany</option>
+          </select><br><br>
+
+          <label for="about">About You:</label><br>
+          <textarea id="about" rows="3" cols="30"></textarea><br><br>
+
+          <button type="submit">Submit</button>
+          <button type="reset">Reset</button>
+        </fieldset>
+      </form>
+    </section>
+
+    <!-- Media Section -->
+    <section id="media">
+      <h2>Media Embedding</h2>
+
+      <h3>Video</h3>
+      <video width="320" controls poster="poster.jpg">
+        <source src="movie.mp4" type="video/mp4">
+        Your browser does not support video.
+      </video>
+
+      <h3>Audio</h3>
+      <audio controls>
+        <source src="audio.mp3" type="audio/mpeg">
+        Your browser does not support audio.
+      </audio>
+
+      <h3>Iframe</h3>
+      <iframe src="https://www.wikipedia.org" width="300" height="200" title="Wikipedia Preview"></iframe>
+    </section>
+
+    <section>
+      <h2>Responsive Image</h2>
+      <picture> 
+        <source media="(min-width: 800px)" srcset="large.jpg">  
+        <source media="(min-width: 400px)" srcset="medium.jpg">
+        <img src="small.jpg" width="400px" alt="Responsive Image">
+      </picture>
+    </section>
+  </main>
+
+  <!-- Footer Section -->
+  <footer>
+    <hr>
+    <p>&copy; 2025 All rights reserved.</p>
+  </footer>
+
+</body>
+
+</html>
