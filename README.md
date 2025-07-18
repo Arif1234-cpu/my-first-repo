@@ -22,7 +22,7 @@ Welcome to my *first GitHub repository, crafted to demonstrate and practice core
 
 ## 🚀 How to Run
 1. Download or clone this repository.
-2. Open index.html with any modern browser like *Chrome, **Firefox, or **Edge* to explore the content.
+2. Open index.html with any modern browser like Chrome, Firefox, or Edge to explore the content.
 
 ## ✍ Author
 *Mohammad Arif Khan*
