@@ -1,6 +1,6 @@
 # My First Repository
 
-Welcome to my *first GitHub repository, crafted to demonstrate and practice core **HTML elements* along with media integrations.
+Welcome to my  first GitHub repository, crafted to demonstrate and practice core *HTML elements* along with media integrations.
 
 ## 📂 Project Contents
 - **index.html** — A complete webpage showcasing various HTML tags and features, including:
@@ -17,7 +17,7 @@ Welcome to my *first GitHub repository, crafted to demonstrate and practice core
   - *Lists:* Ordered and Unordered
   - *Tables* for data display
   - *Forms* for user input
-  - *Semantic Tags:* (<header>, <footer>, <section>, <article>)
+  - *Semantic Tags:* (header, footer, section, article etc.)
   - *HTML Comments*
 
 ## 🚀 How to Run
